@@ -1,8 +1,8 @@
 import React from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
-import Login from './LoginComponent';
+import Login from './Login/LoginComponent';
 import Home from './HomeComponent';
-import Register from './RegisterComponent';
+import Register from './Login/RegisterComponent';
 
 export default function Main(){
 
